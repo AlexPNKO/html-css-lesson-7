@@ -11,7 +11,10 @@
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
-      ul > li:first-child > span {
+      li {
+        margin-bottom: 16px;
+      }
+      li:first-child > span {
         background-color: red;
         color: white;
       }
@@ -19,11 +22,11 @@
         background-color: black;
         color: white;
       }
-      li:nth-child(3) > span {
-        font-weight: bold;
-      }
-      li:nth-child(odd) {
+      li:nth-child(even) > span {
         margin-left: 16px;
+      }
+      div > p:nth-child(odd) {
+        background-color: grey;
       }
     </style>
   </head>
